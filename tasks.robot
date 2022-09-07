@@ -80,7 +80,7 @@ Export the receipt as a PDF and add the image
     Add Files To Pdf    ${files}    ${OUTPUT_DIR}${/}orders/order_${order_number}_receipt.pdf    true
 
 Creating a ZIP Archive of the files
-    Archive Folder With Zip    ${OUTPUT_DIR}${/}orders    orders.zip
+    Archive Folder With Zip    ${OUTPUT_DIR}${/}orders    ${OUTPUT_DIR}${/}orders.zip
 
 Close the browser
     Close Browser
